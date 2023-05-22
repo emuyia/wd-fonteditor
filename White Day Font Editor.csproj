@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+		<OutputPath>$(SolutionDir)\build\</OutputPath>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<AssemblyName>wdfe</AssemblyName>
+        <TargetFramework>net6.0-windows</TargetFramework>
+        <RootNamespace>wdfe</RootNamespace>
+        <UseWindowsForms>true</UseWindowsForms>
+        <ApplicationIcon>ico.ico</ApplicationIcon>
+        <Version>1.2</Version>
+        <Copyright></Copyright>
+        <Authors>emuyia</Authors>
+        <Company>emuyia</Company>
+        <PlatformTarget>AnyCPU</PlatformTarget>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Optimize>true</Optimize>
+    </PropertyGroup>
+    
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+	<ItemGroup>
+        <Content Include="ico.ico" />
+    </ItemGroup>
+
+</Project>
