@@ -2,6 +2,8 @@
 
 ## Introduction
 
+![wdfe_1.2](https://i.imgur.com/LyU4n4r.jpg)
+
 White Day Font Editor is a .NET desktop application for editing the proprietary font files (FNT and WFT) for an old Korean horror game named White Day (2001). The application provides a UI for managing these files, exporting parts of the font's characters into BMP files, and then importing edited versions back into the game.
 
 ## Features
