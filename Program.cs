@@ -6,7 +6,6 @@ using System.Drawing.Imaging;
 using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using System.IO;
-using static System.Net.WebRequestMethods;
 
 namespace wdfe
 {
